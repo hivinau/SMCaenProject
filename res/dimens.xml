@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xsi:noNamespaceSchemaLocation="dimens.xsd" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <dimens name="app_default_width">700</dimens> 
+   <dimens name="app_default_height">300</dimens> 
+   
+</resources>

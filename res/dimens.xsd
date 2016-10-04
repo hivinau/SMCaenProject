@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="dimens">
+    	<xsd:complexType>
+        	<xsd:simpleContent>
+            	<xsd:extension base="xsd:positiveInteger">
+                	<xsd:attribute name="name" type="xsd:string"></xsd:attribute>
+            	</xsd:extension>
+        	</xsd:simpleContent>
+    	</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="resources">
+        <xsd:complexType >
+            <xsd:sequence>
+                <xsd:element ref="dimens" maxOccurs="unbounded"></xsd:element>
+            </xsd:sequence>
+        </xsd:complexType>	
+    </xsd:element>
+    
+</xsd:schema>

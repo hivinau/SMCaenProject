@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xsi:noNamespaceSchemaLocation="colors.xsd" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+   <color name="app_background">#98A42E</color> 
+   
+</resources>
